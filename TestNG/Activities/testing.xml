@@ -1,10 +1,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="softwaretestingmaterial">
     <test name="testngTest">
+        <groups>
+            <run>
+                <include name="HeaderTests" />
+                <include name="ButtonTests" />
+
+            </run>
+        </groups>
         <classes>
             <class name="FST_TestNG.Activity_01" />
             <class name="FST_TestNG.Activity_02" />
             <class name="FST_TestNG.Activity_03" />
+            <class name="FST_TestNG.Activity_05" />
 
         </classes>
     </test>
