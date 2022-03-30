@@ -1,6 +1,4 @@
-from __future__ import division
-from re import sub
-from numpy import subtract
+
 import pytest
 import math
 ## Adding
@@ -13,17 +11,17 @@ def test_sum():
 def test_subtract():
     num1 = 10
     num2 = 5
-    subtract = num1 -num2
-    assert subtract == 5
+    diff = num1 -num2
+    assert diff == 5
 ##Multiply
 def test_multiply():
     num1 = 10
     num2 =10
-    multiply = num1*num2
-    assert multiply ==100
+    prod = num1*num2
+    assert prod ==100
 ##Division
 def test_division():
     num1 = 100
     num2 = 2
-    division = num1/num2
-    assert division == 50             
+    quot = num1/num2
+    assert quot == 50             
